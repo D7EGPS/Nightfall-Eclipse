@@ -1,0 +1,32 @@
+{
+  "name": "nightfall-eclipse",
+  "displayName": "Nightfall Eclipse",
+  "description": "Nightfall Eclipse is a modern and stylish theme with a dark color scheme that's easy on the eyes. Its accents provide a pop of color that adds a touch of vibrancy to your coding experience. Give your code editor a sleek new look with Nightfall Eclipse.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.76.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "themes",
+    "dark",
+    "nightfall",
+    "eclipse"
+  ],
+  "icon": "assets/icon.png",
+  "publisher": "D7EGPS",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/D7EGPS/Nightfall-Eclipse"},
+  "contributes": {
+    "themes": [
+      {
+        "label": "Nightfall Eclipse",
+        "uiTheme": "vs-dark",
+        "path": "./themes/nightfall-eclipse-color-theme.json"
+      }
+    ]
+  }
+}
